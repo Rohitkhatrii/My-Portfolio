@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Rohit Khatri</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Fixed Left Sidebar Navigation -->
+    <aside class="sidebar">
+        <!-- Links point back to index.html -->
+        <a href="index.html#home" class="icon-btn" title="Home"><i class="fa-solid fa-house"></i></a>
+        <a href="index.html#about" class="icon-btn" title="About"><i class="fa-solid fa-user"></i></a>
+        <a href="index.html#skills" class="icon-btn" title="Skills"><i class="fa-solid fa-code"></i></a>
+        <a href="#projects" class="icon-btn active" title="Projects"><i class="fa-solid fa-briefcase"></i></a>
+        <a href="index.html#education" class="icon-btn" title="Education"><i class="fa-solid fa-graduation-cap"></i></a>
+        <a href="index.html#contact" class="icon-btn" title="Contact"><i class="fa-solid fa-envelope"></i></a>
+    </aside>
+
+    <!-- Top Navigation -->
+    <header class="top-nav">
+        <div class="logo">
+            <i class="fa-solid fa-share-nodes"></i> ROHIT KHATRI
+        </div>
+        <nav>
+            <ul>
+                <!-- Links point back to index.html -->
+                <li><a href="index.html#home"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="index.html#about"><i class="fa-solid fa-user"></i> About</a></li>
+                <li><a href="index.html#skills"><i class="fa-solid fa-code"></i> Skills</a></li>
+                <li><a href="#projects" style="color: var(--accent-color);"><i class="fa-solid fa-diagram-project"></i> Projects <i class="fa-solid fa-chevron-down small-icon"></i></a></li>
+                <li><a href="index.html#education"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+                <li><a href="index.html#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+                <li><a href="Rohit_CV.pdf" target="_blank"><i class="fa-regular fa-file-lines"></i> Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content-area">
+        
+        <!-- Projects Section -->
+        <section id="projects" class="section-padding">
+            <div class="section-header text-center">
+                <h2><i class="fa-solid fa-diagram-project"></i> Personal Projects</h2>
+                <div class="divider center"></div>
+            </div>
+            
+            <div class="project-card box-card">
+                <div class="project-header">
+                    <h3>Rocket Rush</h3>
+                    <span class="tech-stack">Unity | C#</span>
+                </div>
+                <p class="project-summary">Built a physics-based 2D Rocket landing game using Unity and C#, focusing on responsive movement and gameplay mechanics.</p>
+                <ul class="project-details">
+                    <li>Implemented the Singleton pattern to provide centralized, controlled access to core gameplay systems.</li>
+                    <li>Applied the Observer pattern and event-driven architecture to decouple gameplay, audio, visual effects, scoring, and game-state systems.</li>
+                    <li>Implemented physics-based movement, collision detection, fuel management, landing validation, and dynamic scoring based on landing speed and angle.</li>
+                    <li>Integrated Unity Input System, Cinemachine, Particle Systems, and Level management to create responsive controls, camera behavior, visual feedback, and multi-level gameplay.</li>
+                </ul>
+                
+                <!-- NEW: Action Buttons -->
+                <div class="project-actions">
+                    <a href="https://rocket-rush-game.netlify.app/" target="_blank" class="btn">
+                        <i class="fa-solid fa-play"></i> Play Now
+                    </a>
+                    <a href="https://github.com/Rohitkhatrii/Rocket-Rush-Unity" target="_blank" class="btn btn-outline">
+                        <i class="fa-solid fa-code"></i> Code <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer style="margin-top: auto;">
+            <p>© 2026 Rohit Khatri. All rights reserved.</p>
+        </footer>
+
+    </main>
+
+</body>
+</html>
