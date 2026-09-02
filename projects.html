@@ -51,28 +51,57 @@
                 <div class="divider center"></div>
             </div>
             
-            <div class="project-card box-card">
-                <div class="project-header">
-                    <h3>Rocket Rush</h3>
-                    <span class="tech-stack">Unity | C#</span>
-                </div>
-                <p class="project-summary">Built a physics-based 2D Rocket landing game using Unity and C#, focusing on responsive movement and gameplay mechanics.</p>
-                <ul class="project-details">
-                    <li>Implemented the Singleton pattern to provide centralized, controlled access to core gameplay systems.</li>
-                    <li>Applied the Observer pattern and event-driven architecture to decouple gameplay, audio, visual effects, scoring, and game-state systems.</li>
-                    <li>Implemented physics-based movement, collision detection, fuel management, landing validation, and dynamic scoring based on landing speed and angle.</li>
-                    <li>Integrated Unity Input System, Cinemachine, Particle Systems, and Level management to create responsive controls, camera behavior, visual feedback, and multi-level gameplay.</li>
-                </ul>
+            <!-- Flex container added to space out multiple project cards perfectly -->
+            <div style="display: flex; flex-direction: column; gap: 35px;">
                 
-                <!-- NEW: Action Buttons -->
-                <div class="project-actions">
-                    <a href="https://rocket-rush-game.netlify.app/" target="_blank" class="btn">
-                        <i class="fa-solid fa-play"></i> Play Now
-                    </a>
-                    <a href="https://github.com/Rohitkhatrii/Rocket-Rush-Unity" target="_blank" class="btn btn-outline">
-                        <i class="fa-solid fa-code"></i> Code <i class="fa-brands fa-github"></i>
-                    </a>
+                <!-- NEW PROJECT: Wanderleaf -->
+                <div class="project-card box-card">
+                    <div class="project-header">
+                        <h3>Wanderleaf</h3>
+                        <span class="tech-stack">Unity | C#</span>
+                    </div>
+                    <p class="project-summary">Built a feature-rich 2D platformer with advanced input handling (coyote time, jump buffering, double jump) for precise, responsive player movement.</p>
+                    <ul class="project-details">
+                        <li>Implemented dynamic AI pathfinding using NavMesh 2D for flying enemies, alongside waypoint-driven behaviors for ground patroling enemies.</li>
+                        <li>Programmed custom physics interactions and collision logic for complex environmental elements, including moving/falling platforms, conveyor belts, and zero-friction surfaces.</li>
+                        <li>Developed scalable game logic for state-driven progression, including key-door mechanics, checkpoint serialization, and multi-tier collectible tracking.</li>
+                        <li>Optimized cross-platform deployment for WebGL, ensuring input handling across PC and mobile browsers.</li>
+                    </ul>
+                    
+                    <div class="project-actions">
+                        <a href="https://wanderleaf-game.netlify.app/" target="_blank" class="btn">
+                            <i class="fa-solid fa-play"></i> Play Now
+                        </a>
+                        <a href="https://github.com/Rohitkhatrii/Wanderleaf" target="_blank" class="btn btn-outline">
+                            <i class="fa-solid fa-code"></i> Code <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
                 </div>
+
+                <!-- PROJECT: Rocket Rush -->
+                <div class="project-card box-card">
+                    <div class="project-header">
+                        <h3>Rocket Rush</h3>
+                        <span class="tech-stack">Unity | C#</span>
+                    </div>
+                    <p class="project-summary">Built a physics-based 2D Rocket landing game using Unity and C#, focusing on responsive movement and gameplay mechanics.</p>
+                    <ul class="project-details">
+                        <li>Implemented the Singleton pattern to provide centralized, controlled access to core gameplay systems.</li>
+                        <li>Applied the Observer pattern and event-driven architecture to decouple gameplay, audio, visual effects, scoring, and game-state systems.</li>
+                        <li>Implemented physics-based movement, collision detection, fuel management, landing validation, and dynamic scoring based on landing speed and angle.</li>
+                        <li>Integrated Unity Input System, Cinemachine, Particle Systems, and Level management to create responsive controls, camera behavior, visual feedback, and multi-level gameplay.</li>
+                    </ul>
+                    
+                    <div class="project-actions">
+                        <a href="https://rocket-rush-game.netlify.app/" target="_blank" class="btn">
+                            <i class="fa-solid fa-play"></i> Play Now
+                        </a>
+                        <a href="https://github.com/Rohitkhatrii/Rocket-Rush-Unity" target="_blank" class="btn btn-outline">
+                            <i class="fa-solid fa-code"></i> Code <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
             </div>
         </section>
 
