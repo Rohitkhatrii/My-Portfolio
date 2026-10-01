@@ -54,6 +54,30 @@
             <!-- Flex container added to space out multiple project cards perfectly -->
             <div style="display: flex; flex-direction: column; gap: 35px;">
                 
+                <!-- PROJECT: Desert Sprint -->
+                <div class="project-card box-card">
+                    <div class="project-header">
+                        <h3>Desert Sprint</h3>
+                        <span class="tech-stack">Unity | C#</span>
+                    </div>
+                    <p class="project-summary">Built a 3D endless runner game using Unity and C#, focusing on continuous forward movement and responsive player controls.</p>
+                    <ul class="project-details">
+                        <li>Implemented an Object Pooling system to pre-instantiate and dynamically recycle environment segments, optimizing memory allocation and ensuring seamless infinite level generation.</li>
+                        <li>Developed a centralized state management approach using static variables to track runtime distance, coin counts, and gem collection across active scenes.</li>
+                        <li>Programmed core gameplay mechanics including bounded lateral movement, impulse-based jumping, animated collectibles, and collision-triggered failure states utilizing coroutines for delayed resets.</li>
+                        <li>Integrated Unity Animator, Audio Sources, UI Canvas elements, and Camera animations to deliver synchronized visual feedback, interactive menus, and smooth scene transitions.</li>
+                    </ul>
+                    
+                    <div class="project-actions">
+                        <a href="https://rohitkhatrii.github.io/Desert-Sprint/" target="_blank" class="btn">
+                            <i class="fa-solid fa-play"></i> Play Now
+                        </a>
+                        <a href="https://github.com/Rohitkhatrii/Desert-Sprint" target="_blank" class="btn btn-outline">
+                            <i class="fa-solid fa-code"></i> Code <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
                 <!-- NEW PROJECT: Wanderleaf -->
                 <div class="project-card box-card">
                     <div class="project-header">
@@ -97,6 +121,29 @@
                             <i class="fa-solid fa-play"></i> Play Now
                         </a>
                         <a href="https://github.com/Rohitkhatrii/Rocket-Rush-Unity" target="_blank" class="btn btn-outline">
+                            <i class="fa-solid fa-code"></i> Code <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- PROJECT: 2D Arcade Slot Game -->
+                <div class="project-card box-card">
+                    <div class="project-header">
+                        <h3>2D Arcade Slot Game</h3>
+                        <span class="tech-stack">Unity | C#</span>
+                    </div>
+                    <p class="project-summary">Developed a 2D slot game centered on a core betting loop, where players wager gold (10G–100G) to earn dynamic multiplier payouts and free spins via a state-managed economy.</p>
+                    <ul class="project-details">
+                        <li>Engineered infinite UI reel scrolling using RectTransforms, mathematically snapping to display exactly 9 symbols in a 3x3 grid upon stopping.</li>
+                        <li>Modularized game architecture using ScriptableObjects to efficiently define visual symbols (e.g., 7, BAR, Cherries) and their respective payout multipliers.</li>
+                        <li>Implemented a distance-based detection algorithm to evaluate center-row matches, utilizing Coroutines to create sequential reel-stopping suspense.</li>
+                    </ul>
+                    
+                    <div class="project-actions">
+                        <a href="https://rohitkhatrii.github.io/2D-Arcade-Slot-Game/WebGL/" target="_blank" class="btn">
+                            <i class="fa-solid fa-play"></i> Play Now
+                        </a>
+                        <a href="https://github.com/Rohitkhatrii/2D-Arcade-Slot-Game" target="_blank" class="btn btn-outline">
                             <i class="fa-solid fa-code"></i> Code <i class="fa-brands fa-github"></i>
                         </a>
                     </div>
